@@ -3,7 +3,7 @@ name = input("Enter employee name: ")
 wage = int(input("Enter daily wage: "))
 days = int(input("Enter working days: "))
 
-total = wage * days
+total = (wage * days) + 200
 
 print("\n----- Employee Wage Details -----")
 print("Employee Name:", name)
